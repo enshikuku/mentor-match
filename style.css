@@ -295,6 +295,7 @@ footer {
     
     section iframe {
         width: 100%;
+        min-width: 280px;
         height: 220.5px;
     }
     section h2 {
