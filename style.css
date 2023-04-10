@@ -106,7 +106,7 @@ section p {
 section iframe {
     min-width: 392px;
     height: 220.5px;
-    border: 2px double #900020;
+    border: 4px double #900020;
     border-radius: 25px;
 }
   
