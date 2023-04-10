@@ -14,7 +14,6 @@
   font-family: MulishLight;
   src: url(font/Mulish-VariableFont_wght.ttf);
 }
-
 * {
     padding: 0;
     margin: 0;
@@ -22,7 +21,6 @@
     scroll-behavior: smooth;
     font-family: MulishRegular;
 }
-
 .nav {
     height: 125px;
     width: 100%;
@@ -143,90 +141,108 @@ section audio {
 }
 .testimonial {
     margin-bottom: 20px;
-  }
-  
-  .testimonial p {
+}
+.testimonial p {
     font-style: italic;
     margin-bottom: 10px;
-  }
-  
-  .testimonial p em {
+}
+.testimonial p em {
     font-style: normal;
 }
 .button {
-    background-color: #333;
+    background-color: #900020;
+    color: #E9DDD4;
     border: none;
-    color: #fff;
     display: inline-block;
-    font-size: 1em;
+    font-size: 20px;
     margin-top: 20px;
     padding: 10px 20px;
+    border-radius: 20px;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .button:hover {
-    background-color: #ccc;
-    color: #333;
+    background-color: #E9DDD4;
+    color: #900020;
+    letter-spacing: 2px;
 }
 form {
     width: 80%;
-    max-width: 800px;
+    min-width: 280px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
-  }
-  
-  label {
+}
+label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
+}
+input[type=text], input[type=email], input[type=tel], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: 1px solid #E9DDD4;
+    border-radius: 6px;
     font-size: 16px;
-  }
-  
-  select {
+}
+select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #E9DDD4;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+}
+input[type=submit] {
+    background-color: #900020;
+    color: #E9DDD4;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 14px;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .error {
+}
+input[type=submit]:hover {
+    background-color: #A70024;
+}
+.error {
     color: red;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
+}
 footer {
-    background-color: #ccc;
-    color: #333;
+    background-color: #000000;
+    color: #E9DDD4;
+    font-size: 14px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
     padding: 20px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.footer-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+.footer-section h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-section li a {
+    text-decoration: none;
+    color: #E9DDD4;
+}
+#chinikabisa {
     text-align: center;
 }
 @media (max-width:930px) {
@@ -252,7 +268,7 @@ footer {
         padding: 13px;
     }
     .nav .nav-btn label:hover,.nav  #nav-check:checked ~ .nav-btn label {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #9000204D;
     }
     .nav .nav-btn label span {
         display: block;
@@ -285,8 +301,7 @@ footer {
     }
     main {
         width: 95%;
-    }
-    
+    }    
     section iframe {
         width: 100%;
         min-width: 245px;
@@ -294,19 +309,27 @@ footer {
         margin: 0 auto;
     }
     section audio {
-      width: 100%;
-      min-width: 245px;
-      margin: 0 auto;
+        width: 100%;
+        min-width: 245px;
+        margin: 0 auto;
     }
     section h2 {
-      text-align: center;
-      font-size: 25px;
+        text-align: center;
+        font-size: 25px;
     }
     section h3 {
-      text-align: center;
-      font-size: 20px;
+        text-align: center;
+        font-size: 20px ;
     }
     section p {
-      font-size: 17px;
+        font-size: 17px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        flex-basis: 50%;
+        text-align: center;
     }
 }
