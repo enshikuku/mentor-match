@@ -295,8 +295,8 @@ footer {
     
     section iframe {
         width: 100%;
-        min-width: 280px;
-        height: 220.5px;
+        min-width: 250px;
+        height: 200px;
     }
     section h2 {
       text-align: center;
