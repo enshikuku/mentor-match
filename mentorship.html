@@ -6,88 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Mentorship Program</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681131431/mortarboard_hsgpww.png" type="image/x-icon">
 </head>
 <body>
-	<header>
-		<h1>Campus Mentorship Program</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#team">Team</a></li>
-				<li><a href="#program">Program</a></li>
-				<li><a href="#testimonials">Testimonials</a></li>
-				<li><a href="#apply">Apply</a></li>
-				<li><a href="#faq">FAQ</a></li>
-			</ul>
-		</nav>
-	</header>
+    <header>
+        <div class="nav container">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title"><a href="/mentorship.html"><img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681131431/mortarboard_hsgpww.png" alt=""> Mentor Match</a></div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            <div class="nav-links">
+                <a href="#about" onclick="closeNav()">about</a>
+                <a href="#team" onclick="closeNav()">team</a>
+                <a href="#program" onclick="closeNav()">program</a>
+                <a href="#testimonials" onclick="closeNav()">refs</a>
+                <a href="#apply" onclick="closeNav()">apply</a>
+                <a href="#faq" onclick="closeNav()">FAQ</a>
+            </div>
+        </div>
+    </header>
 	<main>
 		<section id="about">
 			<h2>About the Mentorship Program</h2>
 			<p>Our campus mentorship program pairs experienced students with incoming students to help them navigate campus life, develop important skills, and achieve their goals. Mentors and mentees meet regularly throughout the academic year to discuss a range of topics and build a supportive relationship.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hxTrEytzBzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <audio controls>
-                <source src="https://drive.google.com/uc?export=download&id=1Rmx3s0efmkCNSKh_RRpXUxry_VPR0dYs" type="audio/mp3">
-            </audio>
-              
+            <iframe src="https://www.youtube.com/embed/hxTrEytzBzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
 		</section>
 		<section id="team">
 			<h2>The Mentorship Team</h2>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 1">
-				<h3>John Smith</h3>
-				<p>Lead Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 2">
-				<h3>Jane Doe</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
-				<h3>Bob Johnson</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 1">
-				<h3>John Smith</h3>
-				<p>Lead Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 2">
-				<h3>Jane Doe</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
-				<h3>Bob Johnson</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 1">
-				<h3>John Smith</h3>
-				<p>Lead Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 2">
-				<h3>Jane Doe</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
-				<h3>Bob Johnson</h3>
-				<p>Mentor</p>
-			</div>
-			<div class="mentor">
-				<img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
-				<h3>Bob Johnson</h3>
-				<p>Mentor</p>
-			</div>
+			<div id="team-div">
+                <div class="mentor">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 1">
+                    <h3>Shikuku Emmanuel</h3>
+                    <p>Lead Mentor</p>
+                </div>
+                <div class="mentor">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 2">
+                    <h3>Jane Doe</h3>
+                    <p>Mentor</p>
+                </div>
+                <div class="mentor">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
+                    <h3>Bob Johnson</h3>
+                    <p>Mentor</p>
+                </div>
+                <div class="mentor">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1681129390/avatar_j0jxyj.png" alt="Mentor 3">
+                    <h3>Bob Johnson</h3>
+                    <p>Mentor</p>
+                </div>
+            </div>
 		</section>
 		<section id="program">
 			<h2>The Mentorship Program</h2>
 			<p>Mentors and mentees meet once a week for an hour to discuss a range of topics, including study skills, time management, and goal setting. In addition, there are monthly events and workshops that allow mentors and mentees toconnect with other program participants and learn from guest speakers.</p>
             <p>To apply to become a mentor or mentee, fill out our online application form and attend our program orientation session. Applications are accepted on a rolling basis, and we encourage interested students to apply as soon as possible.</p>
+            <audio controls>
+                <source src="https://drive.google.com/uc?export=download&id=1Rmx3s0efmkCNSKh_RRpXUxry_VPR0dYs" type="audio/mp3">
+            </audio>
         </section>
         <section id="testimonials">
             <h2>Testimonials</h2>
@@ -118,5 +100,6 @@
     <footer>
         <p>© 2023 Campus Mentorship Program</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
