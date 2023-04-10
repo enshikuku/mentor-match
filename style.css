@@ -99,6 +99,12 @@ section h2 {
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
+section h3 {
+    font-size: 25px;
+    color: #900020;
+    font-family: MulishBold;
+    letter-spacing: 2px;
+}
 section p {
     margin-bottom: 20px;
     font-size: 20px;
@@ -109,45 +115,33 @@ section iframe {
     border: 4px double #900020;
     border-radius: 25px;
 }
-  
-  /* Mentorship team styles */
-  #team-div {
+#team-div {
     display: flex;
     justify-content: center;
     gap: 10px;
     align-items: center;
     flex-wrap: wrap;
-  }
-  #team h2 {
-    text-align: center;
-  }
-  .mentor {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* justify-content: center;
-    align-items: center;*/
+}
+.mentor {
     text-align: center;
     width: 150px;
     height: 250px;
-  }
-  
-  .mentor:last-child {
+}
+.mentor:last-child {
     margin-right: 0;
-  }
-  
-  .mentor img {
+}
+.mentor img {
     width: 150px;
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  
-  /* Testimonials styles */
-  .testimonial {
+    padding-top: 10px;
+    border: 3px solid #900020;
+    border-radius: 50%;
+}
+section audio {
+    min-width: 392px;
+    border-radius: 25px;
+    border: 4px double #900020;
+}
+.testimonial {
     margin-bottom: 20px;
   }
   
@@ -299,8 +293,20 @@ footer {
         height: 200px;
         margin: 0 auto;
     }
+    section audio {
+      width: 100%;
+      min-width: 245px;
+      margin: 0 auto;
+    }
     section h2 {
       text-align: center;
       font-size: 25px;
+    }
+    section h3 {
+      text-align: center;
+      font-size: 20px;
+    }
+    section p {
+      font-size: 17px;
     }
 }
