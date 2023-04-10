@@ -1,8 +1,26 @@
+@font-face {
+    font-family: MulishBold;
+    src: url(font/Mulish-ExtraBold.ttf);
+}
+@font-face {
+    font-family: MulishBoldItalic;
+    src: url(font/Mulish-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: MulishRegular;
+    src: url(font/Mulish-Light.ttf);
+}
+@font-face {
+  font-family: MulishLight;
+  src: url(font/Mulish-VariableFont_wght.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: MulishRegular;
 }
 
 .nav {
@@ -58,27 +76,40 @@
 .nav #nav-check {
     display: none;
 }
-  
-  
-  /* Main content styles */
-  main {
-    width: 100%;
+main {
+    border: 1px solid black;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section {
+    background-color: #ffffff80;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
     height: fit-content;
-  }
-  
-  h2 {
-    font-size: 1.5em;
+    box-shadow: 0px 0px 15px #90002080;
+}
+section h2 {
+    font-size: 30px;
+    color: #900020;
+    font-family: MulishBold;
     margin-bottom: 20px;
-  }
-  
-  p {
+    letter-spacing: 2px;
+}
+section p {
     margin-bottom: 20px;
-  }
+    font-size: 20px;
+}
+section iframe {
+    min-width: 392px;
+    height: 220.5px;
+    border: 2px double #900020;
+    border-radius: 25px;
+}
   
   /* Mentorship team styles */
   #team-div {
@@ -258,5 +289,17 @@ footer {
     .nav #nav-check:checked ~ .nav-links {
         height: calc(100vh - 50px);
         overflow-y: auto;
+    }
+    main {
+        width: 95%;
+    }
+    
+    section iframe {
+        min-width: 280px;
+        height: 220.5px;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 25px;
     }
 }
