@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+video {
+    width: 70%;
+    height: auto;
+}
+
+audio {
+    width: 70%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Main content styles */
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    height: 100vh;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Mentorship team styles */
+  .mentor {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 200px;
+  }
+  
+  .mentor:last-child {
+    margin-right: 0;
+  }
+  
+  .mentor img {
+    max-width: 100%;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Testimonials styles */
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p em {
+    font-style: normal;
+}
+.button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: #ccc;
+    color: #333;
+}
+footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+  
