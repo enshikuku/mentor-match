@@ -210,6 +210,25 @@ input[type=submit]:hover {
     font-weight: bold;
     margin-bottom: 10px;
 }
+.thank-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-submission-message {
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.form-submission-message h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.form-submission-message p {
+    font-size: 18px;
+    line-height: 1.5;
+}  
 footer {
     background-color: #212121;
     color: #E9DDD4;
@@ -324,6 +343,9 @@ footer {
     }
     section p {
         font-size: 17px;
+    }
+    .thank-body {
+        height: fit-content;
     }
     .footer-container {
         flex-direction: column;
