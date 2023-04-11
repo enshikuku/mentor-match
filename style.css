@@ -347,6 +347,9 @@ footer {
     .thank-body {
         height: fit-content;
     }
+    .form-submission-message {
+        width: 98%;
+    }
     .footer-container {
         flex-direction: column;
         align-items: center;
