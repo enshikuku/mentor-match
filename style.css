@@ -134,6 +134,10 @@ section iframe {
     border: 3px solid #900020;
     border-radius: 50%;
 }
+#mentor-3 {
+    height: 150px;
+    padding: 0;
+}
 section audio {
     min-width: 392px;
     border-radius: 25px;
